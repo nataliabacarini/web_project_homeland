@@ -51,20 +51,17 @@
   justify-content: center;
   align-items: center;
   grid-area: botton;
-}
-
-.place__button:hover {
-  background-color: #0063d2;
-  cursor: pointer;
-}
-
-.place__label {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.375rem;
   letter-spacing: 0em;
   text-decoration: none;
   color: #ffffff;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
 }
 
 .place__artist {
@@ -144,7 +141,7 @@
     height: 340px;
   }
 
-  .place__label {
+  .place__button {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.05875rem;
