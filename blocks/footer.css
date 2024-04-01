@@ -21,6 +21,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 243px;
 }
 
@@ -31,7 +32,7 @@
   font-size: 4.5rem;
   line-height: 4.75rem;
   letter-spacing: 0em;
-  margin: 0;
+  margin: 0 auto 32px;
 }
 
 .footer__adress {
@@ -40,9 +41,14 @@
   font-size: 1.125rem;
   line-height: 1.375rem;
   letter-spacing: 0em;
-  margin: 32px auto 0;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+.footer__text {
+  margin: 0;
 }
 
 .footer__button {
@@ -119,6 +125,7 @@
     line-height: 2.1875rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
   }
 
   .footer__adress {
